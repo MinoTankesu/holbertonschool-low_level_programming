@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/* Petit programme qui permet de print */
+/** Petit programme qui permet de print */
 
 int main(void)
 {
