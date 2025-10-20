@@ -2,6 +2,7 @@
 
 /**
  * main - Petit programme qui permet de print
+ * return: Always 0
 */
 
 int main(void)
