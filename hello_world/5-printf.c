@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-/**                                                                                                                                                                                                                                         
- * main - Petit programme qui permet de print                                                                                                                                                                                               
- * Return: Bah tu print                                                                                                                                                                                                                     
+/**
+ * main - Petit programme qui permet de print
+ * Return: Bah tu print
 */
 
 int main(void)
