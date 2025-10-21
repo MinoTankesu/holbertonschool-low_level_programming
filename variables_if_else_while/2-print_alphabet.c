@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/**
+* main - Print l'alphabet avec putchar
+* Return: 0
+*/
+
 int main(void)
 {
 char letter;
