@@ -2,7 +2,7 @@
 
 /**
 * _islower - Petit programme pour return 1 si minuscule sinon 0 si majuscule
-* c - Pour tester l'alphabet
+* @c: Pour tester l'alphabet
 * Return: 0
 */
 
