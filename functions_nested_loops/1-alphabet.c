@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* main - Petit programme pour print l'alphabet avec un retour a la ligne
+* print_alphabet - Petit programme pour print l'alphabet avec write
 * Return: 0
 */
 
