@@ -7,9 +7,5 @@
 
 void print_alphabet(void)
 {
-for (char c = 'a'; c <= 'z'; c++)
-{
-putchar(c);
-}
-putchar('\n');
+write(1, "abcdefghijklmnopqrstuvwxyz\n", 27);
 }
