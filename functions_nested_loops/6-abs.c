@@ -2,13 +2,13 @@
 
 /**
 * _abs - Calcule la valeur absolue
+* @n: pour la valeur absolue
 * Return: 0
 */
-
 int _abs(int n)
 {
 if (n < 0)
-return -n;
+return (-n);
 else
-return n;
+return (n);
 }
