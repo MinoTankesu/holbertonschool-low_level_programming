@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* _islower - Petit programme pour return 1 si minuscule sinon 0 si majuscule
+* _isalpha - Petit programme pour return 1 si minuscule ou majuscule sinon 0
 * @c: Pour tester l'alphabet
 * Return: 0
 */
