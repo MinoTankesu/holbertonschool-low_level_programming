@@ -7,6 +7,9 @@
 
 int main(void)
 {
-write(1, "abcdefghijklmnopqrstuvwxyz\n", 27);
+char letter;
+for (letter = 'a'; letter <= 'z'; letter++)
+putchar(letter);
+printf("\n");
 return (0);
 }
