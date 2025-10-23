@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* jack_bauer - Programme pour print, de 00:00 a 23:59
+* times_table - Pour print la table de 9
 * Return: 0
 */
 
