@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
-* times_table - Pour print la table de 9
+* add - Pour additioner a et b
+* @a: a
+* @b: b
 * Return: 0
 */
 
