@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* print_line - Programme pour ecrire des lignes.
+* print_diagonal - Programme pour ecrire des diagonals et des espaces.
 * @n: n
 * Return: ...
 */
