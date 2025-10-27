@@ -1,0 +1,23 @@
+#include "main.h"
+
+/**
+* print_diagonal - Programme pour ecrire des diagonals et des espaces.
+* @n: n
+* Return: ...
+*/
+
+int main(void)
+{
+int j;
+int i;
+for (j = 0; j <= 100; j++)
+{
+for (i = 0; i < 100; i++)
+{
+if (j >= 10)
+printf("1");
+printf("%d", j % 10);
+}
+}
+return(0);
+}
