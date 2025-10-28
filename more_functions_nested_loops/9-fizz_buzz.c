@@ -1,91 +1,24 @@
 #include "main.h"
 
 /**
-* print_diagonal - Programme pour ecrire des diagonals et des espaces.
-* @n: n
-* Return: ...
+* main - Programme pour ecrire les nombres de 0 a 9.
+* @j: j permet de check les multiples de 3 et 5.
+* Return: 0
 */
 
 int main(void)
 {
 int j;
-for (j = 0; j <= 100; j++)
+for (j = 1; j <= 100; j++)
 {
-if (j % 3 == 0 && j % 5 == 0 && j != 0)
-{
+if (j % 3 == 0 && j % 5 == 0)
 printf("FizzBuzz ");
-}
-else if (j % 3 == 0 && j != 0)
-{
+else if (j % 3 == 0)
 printf("Fizz ");
-}
-else if (j % 5 == 0 && j != 0)
-{
+else if (j % 5 == 0)
 printf("Buzz ");
-}
-else if (j >= 10 && j <= 19)
-{ 
-printf("1");
-printf("%d", j % 10);
-printf(" ");
-}
-else if (j >= 20 && j <= 29)
-{
-printf("2");
-printf("%d", j % 10);
-printf(" ");
-}
-else if (j >= 30 && j <= 39)
-{
-printf("3");
-printf("%d", j % 10);
-printf(" ");
-}
-else if (j >= 40 && j <= 49)
-{
-printf("4");
-printf("%d", j % 10);
-printf(" ");
-}
-else if (j >= 50 && j <= 59)
-{
-printf("5");
-printf("%d", j % 10);
-printf(" ");
-}
-else if (j >= 60 && j <= 69)
-{
-printf("6");
-printf("%d", j % 10);
-printf(" ");
-}
-else if (j >= 70 && j <= 79)
-{
-printf("7");
-printf("%d", j % 10);
-printf(" ");
-}
-else if (j >= 80 && j <= 89)
-{
-printf("8");
-printf("%d", j % 10);
-printf(" ");
-}
-else if (j >= 90 && j <= 99)
-{
-printf("9");
-printf("%d", j % 10);
-printf(" ");
-}
-else if (j == 100)
-{
-printf("100");
-}
 else
-{
-printf("%d", j);
-printf(" ");
-}
+printf("%d ", j);
 }
 printf("\n");
 return (0);
