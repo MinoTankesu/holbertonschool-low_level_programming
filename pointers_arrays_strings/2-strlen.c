@@ -2,15 +2,15 @@
 
 /**
 * _strlen - Programme pour return la longueur de la string.
-* Return: 0
+*@s: pointeur pour savoir le nombre de caractere.
+* Return: longueur
 */
 
 int _strlen(char *s)
 {
 int longueur;
-for (longueur = 0; longueur != *s; longueur++)
+for (longueur = 0; s[longueur] != '\0';  longueur++)
 {
-return (longueur);
 }
-return (0);
+return (longueur);
 }
