@@ -2,7 +2,6 @@
 
 /**
 * main - Programme pour ecrire les nombres de 0 a 9.
-* @j: j permet de check les multiples de 3 et 5.
 * Return: 0
 */
 
@@ -24,7 +23,7 @@ else if (j % 5 == 0)
 printf("Buzz");
 }
 else
-{  
+{
 printf("%d", j);
 }
 if (j < 100)
