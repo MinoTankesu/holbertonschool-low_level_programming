@@ -24,7 +24,7 @@ else if (j % 5 == 0)
 printf("Buzz");
 }
 else
-{   
+{  
 printf("%d", j);
 }
 if (j < 100)
