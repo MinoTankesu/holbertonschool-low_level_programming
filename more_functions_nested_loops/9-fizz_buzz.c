@@ -9,15 +9,72 @@
 int main(void)
 {
 int j;
-int i;
 for (j = 0; j <= 100; j++)
 {
-for (i = 0; i < 100; i++)
-{
-if (j >= 10)
+if (j >= 10 && j <= 19)
+{ 
 printf("1");
 printf("%d", j % 10);
+printf(" ");
+}
+else if (j >= 20 && j <= 29)
+{
+printf("2");
+printf("%d", j % 10);
+printf(" ");
+}
+else if (j >= 30 && j <= 39)
+{
+printf("3");
+printf("%d", j % 10);
+printf(" ");
+}
+else if (j >= 40 && j <= 49)
+{
+printf("4");
+printf("%d", j % 10);
+printf(" ");
+}
+else if (j >= 50 && j <= 59)
+{
+printf("5");
+printf("%d", j % 10);
+printf(" ");
+}
+else if (j >= 60 && j <= 69)
+{
+printf("6");
+printf("%d", j % 10);
+printf(" ");
+}
+else if (j >= 70 && j <= 79)
+{
+printf("7");
+printf("%d", j % 10);
+printf(" ");
+}
+else if (j >= 80 && j <= 89)
+{
+printf("8");
+printf("%d", j % 10);
+printf(" ");
+}
+else if (j >= 90 && j <= 99)
+{
+printf("9");
+printf("%d", j % 10);
+printf(" ");
+}
+else if (j == 100)
+{
+printf("100");
+}
+else
+{
+printf("%d", j);
+printf(" ");
 }
 }
-return(0);
+printf("\n");
+return (0);
 }
