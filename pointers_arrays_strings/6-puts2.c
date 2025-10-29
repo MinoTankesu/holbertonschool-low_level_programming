@@ -17,6 +17,6 @@ if (str[longueur + 1] == '\0')
 break;
 }
 longueur += 2;
-} 
+}
 _putchar('\n');
 }
