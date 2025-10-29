@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-* rev_string - Programme pour print la string a l'envers.
+* puts2 - Programme pour print la string tous les 2 caracteres.
 *@s: pointeur pour savoir le nombre de caractere.
-* Return: longueur
+* Return: ...
 */
 
 void puts2(char *str)
