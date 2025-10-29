@@ -2,7 +2,7 @@
 
 /**
 * puts2 - Programme pour print la string tous les 2 caracteres.
-*@s: pointeur pour savoir le nombre de caractere.
+*@str: pointeur pour savoir le nombre de caractere.
 * Return: ...
 */
 
@@ -12,7 +12,11 @@ int longueur = 0;
 while (str[longueur] != '\0')
 {
 _putchar(str[longueur]);
-longueur += 2;
+if (str[longueur + 1] == '\0')
+{
+break;
 }
+longueur += 2;
+} 
 _putchar('\n');
 }
