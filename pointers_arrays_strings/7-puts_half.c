@@ -1,18 +1,18 @@
 #include "main.h"
 
 /**
-* _strlen - Programme pour return la longueur de la string.
-*@s: pointeur pour savoir le nombre de caractere.
+* puts_half - Programme pour print la moitie du string.
+*@str: pointeur pour savoir le nombre de caractere.
 * Return: longueur
 */
 
 void puts_half(char *str)
 {
-int longueur;
+int n = strlen(str);
 int i;
-for (i = longueur / 2; str[longueur] != '\0'; longueur++)
+for (i = n / 2; i < n; i++)
 {
-_putchar(str[longueur]);
+_putchar(str[i]);
 }
 _putchar('\n');
 }
