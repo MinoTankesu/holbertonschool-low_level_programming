@@ -1,20 +1,20 @@
 #include "main.h"
 
 /**
-* print_array - Programme pour print la string.
-*@a: pointeur pour savoir le nombre de caractere.
-*@n: longueur du tableau.
+* _strcpy - Programme pour print la string.
+*@dest: Destination.
+*@src: Source.
 * Return: longueur
 */
 
 char *_strcpy(char *dest, char *src)
 {
-int i;
-while (src[i] > 0)
+int i = 0;
+while (src[i] != '\0')
 {
-_putchar(src[i]);
+dest[i] = src[i];
 i++;
 }
-*src = *dest;  
+dest[i] = '\0';
 return (dest);
 }
