@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* print_rev - Programme pour print la string a l'envers.
+* rev_string - Programme pour print la string a l'envers.
 *@s: pointeur pour savoir le nombre de caractere.
 * Return: longueur
 */
