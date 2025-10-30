@@ -27,8 +27,8 @@ break;
 i++;
 }
 if (!started)
-return 0;
+return (0);
 if (sign > 0)
 result = -result;
-return result;
+return (result);
 }
