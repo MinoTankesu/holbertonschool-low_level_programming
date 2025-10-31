@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* *_strcpy - Programme pour copier la string.
+* *_strncpy - Programme pour copier la string.
 *@dest: la destination.
 *@src: la source.
 *@n: n.
@@ -10,7 +10,7 @@
 
 char *_strncpy(char *dest, char *src, int n)
 {
-char* start = dest;
+char *start = dest;
 while (n > 0 && *src != '\0')
 {
 *dest = *src;
@@ -24,5 +24,5 @@ while (n > 0)
 dest++;
 n--;
 }
-return start;
+return (start);
 }
