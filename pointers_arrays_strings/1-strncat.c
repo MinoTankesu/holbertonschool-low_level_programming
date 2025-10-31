@@ -1,5 +1,13 @@
 #include "main.h"
 
+/**
+* *_strncat - Programme pour print la string a l'envers.
+*@dest: la destination.
+*@src: la source.
+*@n: n.
+* Return: dest.
+*/
+
 
 char *_strncat(char *dest, char *src, int n)
 {
