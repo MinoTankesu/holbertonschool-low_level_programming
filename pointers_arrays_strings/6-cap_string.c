@@ -1,5 +1,12 @@
 #include "main.h"
 
+/**
+* *cap_string - Programme pour ecrire avec une majuscule a chaque debut de mot.
+*@str: str.
+* Return: str.
+*/
+
+
 char *cap_string(char *str)
 {
 int i;
