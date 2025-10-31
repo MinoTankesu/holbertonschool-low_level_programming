@@ -9,25 +9,20 @@
 
 char *cap_string(char *str)
 {
-int i;
-int word = 1;
-for (i = 0; str[i] != '\0'; i++)
+int i = 0;
+int j;
+char separators[] = " \t\n,;.!?\"(){}";
+if (str[0] >= 'a' && str[0] <= 'z')
+str[0] -= 32;
+for (i = 1; str[i] != '\0'; i++)
 {
-if (str[i] >= 'a' && str[i] <= 'z')
+for (j = 0; separators[j] != '\0'; j++)
 {
-if (word)
+if (str[i - 1] == separators[j] && (str[i] >= 'a' && str[i] <= 'z'))
 {
-str[i] = (int)str[i] - 32;
-word = 0;
+str[i] -= 32;
+break;
 }
-}
-else if (str[i] >= 'A' && str[i] <= 'Z')
-{
-word = 0;
-}
-else
-{
-word = 1;
 }
 }
 return (str);
