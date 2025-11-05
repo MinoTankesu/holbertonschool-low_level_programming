@@ -13,7 +13,7 @@ int i = 0;
 while (s[i] != '\0' && s[i] != c)
 {
 i++;
-if (c == '\0' || s[i] == c)
+if (s[i] == '\0' || s[i] == c)
 {
 return (&s[i]);
 }
